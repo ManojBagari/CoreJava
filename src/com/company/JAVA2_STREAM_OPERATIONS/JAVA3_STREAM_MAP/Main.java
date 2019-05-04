@@ -1,10 +1,8 @@
-package com.company.Java2_Stream_Operations.JAVA3_STREAM_MAP;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA3_STREAM_MAP;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
-import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public class Main {

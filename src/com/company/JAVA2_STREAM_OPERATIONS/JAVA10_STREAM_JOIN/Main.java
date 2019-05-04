@@ -1,6 +1,6 @@
-package com.company.Java2_Stream_Operations.JAVA10_STREAM_JOIN;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA10_STREAM_JOIN;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 import java.util.List;
 import java.util.stream.Collectors;

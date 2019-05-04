@@ -1,11 +1,8 @@
-package com.company.Java2_Stream_Operations.JAVA7_STREAM_COLLECTORS;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA7_STREAM_COLLECTORS;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 import java.util.*;
-import java.util.function.BiConsumer;
-import java.util.function.Supplier;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class Main {

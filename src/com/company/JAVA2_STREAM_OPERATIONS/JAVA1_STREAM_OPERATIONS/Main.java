@@ -1,6 +1,6 @@
-package com.company.Java2_Stream_Operations.JAVA1_STREAM_OPERATIONS;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA1_STREAM_OPERATIONS;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 import java.util.List;
 import java.util.stream.Stream;

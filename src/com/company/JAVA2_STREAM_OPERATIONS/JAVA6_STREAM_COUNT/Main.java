@@ -1,6 +1,6 @@
-package com.company.Java2_Stream_Operations.JAVA6_STREAM_COUNT;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA6_STREAM_COUNT;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 public class Main {
     public static void main(String[] args) {
