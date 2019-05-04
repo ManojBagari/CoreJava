@@ -1,9 +1,11 @@
 package com.company.JAVA1_STREAM_CREATION.JAVA2_STREAM_FROM_FUNCTION;
 
+import java.util.Random;
 import java.util.function.IntSupplier;
 import java.util.function.IntUnaryOperator;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
+import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
@@ -92,8 +94,114 @@ Stream.iterate()
         Stream.generate(Main::next)
                 .limit(5)
                 .forEach(System.out::println);
+/*
+
+        Random Stream
+
+        java.util.Random class provides ints(), longs(), and doubles()
+        return infinite IntStream, LongStream, and DoubleStream, respectively.
+
+       The following code prints five random int values
+       from an IntStream returned from the ints() method of the Random class:
+*/
 
 
+        new Random().ints()
+                .limit(5)
+                .forEach(System.out::println);
+
+//        We can use the nextInt() method of the Random class
+//        as the Supplier in the generate() method to achieve the same.
+
+        Stream.generate(new Random()::nextInt)
+                .limit(5)
+                .forEach(System.out::println);
+
+//        To work with only primitive values,
+//        use the generate() method of the primitive type stream interfaces.
+
+        IntStream.generate(new Random()::nextInt)
+                .limit(5)
+                .forEach(System.out::println);
+
+
+//        To generate an infinite stream of a repeating value.
+
+        IntStream.generate(() ->  0)
+                .limit(5)
+                .forEach(System.out::println);
+/*
+                To discard some elements from a stream, use the skip operation.
+
+                The skip(long n), an intermediate operation, skips the first n elements of the stream.
+
+                The following code uses skip to skip the first 100 odd number:
+
+*/
+
+        Stream.iterate(2L, n  ->  n  + 1)
+                .filter(Main::isOdd)
+                .skip(100)
+                .limit(5)
+                .forEach(System.out::println);
+/*
+
+        Stream.generate()
+
+        generate(Supplier<T> s) uses Supplier to generate an infinite sequential unordered stream.
+
+*/
+
+        Stream.generate(Math::random)
+                .limit(5)
+                .forEach(System.out::println);
+
+
+        /*
+
+        To generate a stream in which the next element is generated based on the previous one, you will need to use a Supplier that stores the last generated element.
+
+        The following code keeps the last value in a static variable.
+*/
+
+        Stream.generate(Main::next)
+                .limit(5)
+                .forEach(System.out::println);
+
+
+/*
+        Random Stream
+
+        java.util.Random class provides ints(), longs(), and doubles()
+        return infinite IntStream, LongStream, and DoubleStream, respectively
+        The following code prints five random int values from an IntStream
+        returned from the ints() method of the Random class:
+*/
+
+        new Random().ints()
+                .limit(5)
+                .forEach(System.out::println);
+
+/*
+        We can use the nextInt() method of the Random class
+        as the Supplier in the generate() method to achieve the same.
+*/
+
+        Stream.generate(new Random()::nextInt)
+                .limit(5)
+                .forEach(System.out::println);
+
+//        To work with only primitive values, use the generate() method of the primitive type stream interfaces.
+
+        IntStream.generate(new Random()::nextInt)
+                .limit(5)
+                .forEach(System.out::println);
+
+//        To generate an infinite stream of a repeating value.
+
+        IntStream.generate(() ->  0)
+                .limit(5)
+                .forEach(System.out::println);
 
 
 
