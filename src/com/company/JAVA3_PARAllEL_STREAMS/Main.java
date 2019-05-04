@@ -28,7 +28,6 @@ public class Main {
         Use the sequential() method on a stream to convert
         a parallel stream into a sequential stream.
 */
-1
         String names = Employee.persons()
                 .stream()
                 .filter(Employee::isMale)
