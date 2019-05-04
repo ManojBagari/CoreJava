@@ -37,14 +37,14 @@ public class Main {
         The following code creates streams from a set of strings:
 */
 
-        Set<String> names = new HashSet<>();
-        names.add("XML");
-        names.add("Java");
+        Set<String> names2 = new HashSet<>();
+        names2.add("XML");
+        names2.add("Java");
 
-        Stream<String> sequentialStream  = names.stream();
+        Stream<String> sequentialStream  = names2.stream();
         sequentialStream.forEach(System.out::println);
 
-        Stream<String> parallelStream = names.parallelStream();
+        Stream<String> parallelStream = names2.parallelStream();
         parallelStream.forEach(System.out::println);
 
         
