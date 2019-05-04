@@ -1,6 +1,6 @@
-package com.company.Java2_Stream_Operations.JAVA9_STREAM_COLLECT_MAP;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA9_STREAM_COLLECT_MAP;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 import java.util.Map;
 import java.util.function.Function;

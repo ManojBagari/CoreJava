@@ -1,6 +1,6 @@
-package com.company.Java2_Stream_Operations.JAVA2_STREAM_FILTER;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA2_STREAM_FILTER;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 public class Main {
     public static void main(String[] args) {

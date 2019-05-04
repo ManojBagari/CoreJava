@@ -1,4 +1,4 @@
-package com.company.Java2_Stream_Operations;
+package com.company.JAVA2_STREAM_OPERATIONS;
 
 import java.time.LocalDate;
 import java.time.Month;

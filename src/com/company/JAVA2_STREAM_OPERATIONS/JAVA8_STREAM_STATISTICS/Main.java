@@ -1,10 +1,8 @@
-package com.company.Java2_Stream_Operations.JAVA8_STREAM_STATISTICS;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA8_STREAM_STATISTICS;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 import java.util.DoubleSummaryStatistics;
-import java.util.IntSummaryStatistics;
-import java.util.LongSummaryStatistics;
 import java.util.stream.Collectors;
 
 public class Main {

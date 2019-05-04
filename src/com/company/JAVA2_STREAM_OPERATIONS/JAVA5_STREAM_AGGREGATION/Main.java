@@ -1,6 +1,6 @@
-package com.company.Java2_Stream_Operations.JAVA5_STREAM_AGGREGATION;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA5_STREAM_AGGREGATION;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 import java.util.Comparator;
 import java.util.Optional;

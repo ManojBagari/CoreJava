@@ -1,12 +1,10 @@
-package com.company.Java2_Stream_Operations.JAVA4_STREAM_REDUCE;
+package com.company.JAVA2_STREAM_OPERATIONS.JAVA4_STREAM_REDUCE;
 
-import com.company.Java2_Stream_Operations.Employee;
+import com.company.JAVA2_STREAM_OPERATIONS.Employee;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
-import java.util.stream.DoubleStream;
 import java.util.stream.Stream;
 
 public class Main {
