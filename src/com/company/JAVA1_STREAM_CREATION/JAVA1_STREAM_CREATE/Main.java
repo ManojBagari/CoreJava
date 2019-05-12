@@ -29,6 +29,7 @@ public class Main {
 		String[] arr = new String[] { "a", "b", "c" };
 		Stream<String> streamOfArrayFull = Arrays.stream(arr);
 		Stream<String> streamOfArrayPart = Arrays.stream(arr, 1, 3);
+		streamOfArrayPart.forEach(System.out::println);
 
 		// We can use Stream.Builder<T> to create streams
 		Stream<String> stream4 = Stream.<String>builder().add("XML").add("Java").add("CSS").add("SQL").build();
